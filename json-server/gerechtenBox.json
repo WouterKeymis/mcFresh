@@ -1,0 +1,85 @@
+{
+  "dishes": [
+    {
+      "id": 1,
+      "name": "Pizza bianco",
+      "isVeggie": true,
+      "description": "Pizza bianco met courgettebodem"
+    },
+    {
+      "id": 2,
+      "name": "Pasta pesto",
+      "isVeggie": false,
+      "description": "Pasta pesto met zalmfilet"
+    },
+    {
+      "id": 3,
+      "name": "Gevulde kipfilet",
+      "isVeggie": false,
+      "description": "Gevulde kipfilet met geitenkaas en spinazie"
+    },
+    {
+      "id": 4,
+      "name": "Courgettesoep",
+      "isVeggie": true,
+      "description": "Courgettesoep met bospaddenstoelenpesto"
+    },
+    {
+      "id": 5,
+      "name": "Mixed grill",
+      "isVeggie": false,
+      "description": "Mixed grill met souvlaki en k�fte"
+    },
+    {
+      "id": 6,
+      "name": "Spaanse tapas",
+      "isVeggie": false,
+      "description": "Spaanse tapas met albondigas, gebakken aardappeltjes en knoflookgarnalen"
+    },
+    {
+      "id": 7,
+      "name": "Traditionele shakshuka",
+      "isVeggie": true,
+      "description": "7.\tTraditionele shakshuka met ei en bruin rozenbroodje"
+    },
+    {
+      "id": 8,
+      "name": "Gevulde portobello",
+      "isVeggie": false,
+      "description": "Gevulde portobello met gehakt"
+    },
+    {
+      "id": 9,
+      "name": "Gebakken kabeljauwfilet",
+      "isVeggie": false,
+      "description": "Gebakken kabeljauwfilet met kokoscrumble"
+    },
+    {
+      "id": 10,
+      "name": "Varkenshaas",
+      "isVeggie": false,
+      "description": "Varkenshaas met aardbeien-balsamicosaus"
+    }
+
+  ],
+  "boxes": [
+    {
+      "id": 1,
+      "name": "ItalianBox",
+      "dishes": [1,2,4],
+      "price": 1.23
+    },
+    {
+      "id": 2,
+      "name": "VeggiBox",
+      "dishes": [ 1, 4, 7 ],
+      "price": 4.56
+    },
+    {
+      "id": 3,
+      "name": "EuropeanBox",
+      "dishes": [ 5, 6, 8, 10 ],
+      "price": 7.89
+    }
+  ]
+}
